@@ -45,7 +45,8 @@ function addTodo(todo) {
 
         todoEl.addEventListener('dblclick', (e) => {
             todoEl.classList.add("edit");
-            todoEl.innerHTML = "";
+            todoEl.innerHTML.add("");
+            todoEl.inputMode.add("");
             updateLS()
         })
 
